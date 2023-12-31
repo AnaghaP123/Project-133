@@ -1,0 +1,48 @@
+body
+{
+    background-size:100%;
+}
+
+.heading
+{
+    background-color: white;
+    width:80%;
+    font-family: 'Nosifer', sans-serif;
+    color: black;
+    margin-top:30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    box-shadow: 10px 15px 10px wheat, -10px -10px 10px#b3caf5;
+}
+
+h3
+{
+    margin-top:40px;
+    width:50%;
+    font-size: 30px;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    background-color: white;
+    color:black;
+    font-family: 'EB Garamond', serif;
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+a
+{
+    background-color: white;
+    width: 100px;
+    border-radius: 10px;
+}
+
+@keyframes example
+{
+    0% {background-color: #b3caf5; left: -100px; top: 0px;}
+    50% {background-color: wheat; left: 100px; top: 0px;}
+    80% {background-color: #ffffff; left: 0px; top: 0px;}
+}
